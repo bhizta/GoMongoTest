@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <h1>Add a New Project</h1>
+    <form action="/add-project" method="POST">
+      <label for="name">Project Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+      <label for="description">Project Description:</label><br />
+      <input
+        type="text"
+        id="description"
+        name="description"
+        required
+      /><br /><br />
+      <button type="submit">Add Project</button>
+    </form>
+    <br />
+    <button onclick="window.location.href='/'">Go to Home</button>
+  </body>
+</html>
